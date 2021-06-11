@@ -8,8 +8,11 @@ public class DesvioEncadeado {
 		 * Crie um programa que receba a idade dos passageiros em potencial e indique se podem embarcar e votar.*/
 		
 		Scanner leitor = new Scanner(System.in);
+		
 		int idade;
+		
 		System.out.println("Por favor, digite a idade do passageiro.");
+		
 		idade = leitor.nextInt();
 	
 		/*Aqui devemos criar uma solução para realizar as verificações.*/
